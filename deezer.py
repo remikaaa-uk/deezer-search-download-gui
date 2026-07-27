@@ -1,14 +1,15 @@
-#!/home/user/python-envs/tools/bin/python
+#!/usr/bin/env python3
 """
 GUI do streamrip. Wyszukuje i dodaje do kolejki piosenki z serwisu deezer.com,
 pozwala również wkleić i pobrać własny link do np. playlisty z deezer.
 Program pozwala na pobieranie mp3 w jakości 128kbps wymaga wpisania do pliku konfiguracyjnego ARL.
 Użytkownicy premium mogą pobierać nawet w jakości flac. W programie nie ma playera do odsłuchania utworu.
-~/python-envs/tools/bin/pip install brakujacy_modul
+Shebang w windows musisz usunąć, a w linux ustawić na własną ścieżkę do python3.  
+pip install brakujacy_modul
 Autor: Remik
 Wersja: 1.1.0
 Instrukcja:
-1) Uruchom: deezer.pyw
+1) Uruchom: python deezer.py lub deezer.pyw
 2) Zależności potrzebne do uruchomienia programu:
    pip install streamrip requests pyperclip
 """

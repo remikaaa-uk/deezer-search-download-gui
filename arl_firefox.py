@@ -1,10 +1,10 @@
-#!/home/user/python-envs/tools/bin/python
+#!/usr/bin/env python3
 """
 Skrypt do odczytu cookie 'arl' z Deezer w Firefox
 Firefox jest dużo prostszy - cookies są w SQLite bez szyfrowania!
 Automatycznie ustawia ARL w config.toml StreamRip.
-
-~/python-envs/tools/bin/pip install brakujacy_modul
+Shebang w windows musisz usunąć, a w linux ustawić na własną ścieżkę do python3. 
+pip install brakujacy_modul
 Użycie: python arl_firefox.py
 """
 import sys

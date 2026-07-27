@@ -75,9 +75,9 @@ Program potrafi automatycznie:
 ## 1. Sklonuj repozytorium
 
 ```bash
-git clone https://github.com/TWOJE_KONTO/deezer-search-download.git
+git clone https://github.com/TWOJE_KONTO/deezer-search-download-gui.git
 
-cd deezer-search-download
+cd deezer-search-download-gui
 ```
 
 ## 2. Zainstaluj zależności
